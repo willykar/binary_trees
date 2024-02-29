@@ -2,11 +2,12 @@
 #include "102-binary_tree_is_complete.c"
 
 /**
-* num_check - todo.
-* @tree: todo.
-* @n: todo.
+* num_check - A function that checks the numbers
+in a binary tree
+* @tree: a pointer to the tree
+* @n: number of steps
 * @flag: 0 to compare left, 1 to compare right.
-* Return: todo.
+* Return: 0 for success 1 otherwise.
 */
 int num_check(const binary_tree_t *tree, int n, int flag)
 {
@@ -36,9 +37,10 @@ int num_check(const binary_tree_t *tree, int n, int flag)
 }
 
 /**
-* binary_tree_is_bst - todo.
-* @tree: todo.
-* Return: todo.
+* binary_tree_is_bst - function to check if binary tree
+is balanced
+* @tree: pointer to the tree
+* Return: 0 for success 1 for failure
 */
 int binary_tree_is_bst(const binary_tree_t *tree)
 {
