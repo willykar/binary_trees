@@ -3,7 +3,7 @@
 
 /**
 * num_check - A function that checks the numbers
-in a binary tree
+* in a binary tree
 * @tree: a pointer to the tree
 * @n: number of steps
 * @flag: 0 to compare left, 1 to compare right.
@@ -38,7 +38,7 @@ int num_check(const binary_tree_t *tree, int n, int flag)
 
 /**
 * binary_tree_is_bst - function to check if binary tree
-is balanced
+* is balanced
 * @tree: pointer to the tree
 * Return: 0 for success 1 for failure
 */
